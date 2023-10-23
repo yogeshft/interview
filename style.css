@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    
+}
+
+p{
+    width: 200px;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* adding media query */
+@media screen and (max-width: 768px){
+ .el1{
+    font-size: 16px;
+ }
+}
+
+.backgrnd-color{
+    width: 400px;
+    height: 400px;
+    background:linear-gradient(to right, #ff0000, #00ff00);
+    /* transform: rotate(60deg); */
+}
+
+
+/* Default styles for both elements */
+.hide-on-large, .show-on-large {
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  /* Media query to hide on larger screens */
+  @media screen and (min-width: 768px) {
+    .hide-on-large {
+      display: none;
+    }
+  }
+  
+  /* Media query to show on larger screens */
+  @media screen and (min-width: 768px) {
+    .show-on-large {
+      display: block; /* You can also use 'inline' or 'inline-block' here */
+    }
+  }
+/* 
+flex-grow determines how much an item should grow relative to other items when extra space is available in the container.
+*/
+
+/*
+ media query aloows us to chane the charatsitcis of the element with respect to its dimenstion size 
+ */
+
+ /* 
+ what is flexbox?
+ flexbox is a layout model by which can help to create  complex structure 
+ */
+
+ /* Create a media query that targets screens with a minimum width of 1200px and changes the background color to red. */
+ @media screen and (min-width: 1200px) {
+ p{
+    color: red;
+ } 
+
+}
+
+/* 
+what is css?
+What is cascading in CSS?
+Tell us something about CSS3.
+What do you understand by W3C?
+Define property?👀
+What is at-rule?👀
+Name all the modules which are used in the current version of CSS.
+How is a CSS selector used?👀
+Explain CSS image scripts.
+Define CSS frameworks?👀
+What is the meaning of the CSS selector?
+What are the media types allowed by CSS?
+What are the various positioning properties in CSS?👀
+What is the use of ruleset?
+Tell me how we can declare element dimension? 
+What are CSS transitions?👀
+Name some CSS style components.👀 (eg. selector, property, value)
+How is margin different from padding in CSS?
+Name some font-related CSS attributes.
+What is the difference between CSS border and outline? 👀
+What is the difference between margin and padding?
+How does Calc work?👀
+How can we calculate specificity?
+What are Vendor-Prefixes? 
+how does a browser determine what elements match a CSS selector?👀
+Can we add 2D transformations to our project using CSS?
+Can we add 3D transformations to our project using CSS?
+What is meant by CSS working under the hood?
+When should you use translate () instead of absolute positioning?👀➗➕➕➕
+What does * { box-sizing: border-box; } do? What are its advantages?👀
+Define contextual selectors.
+What is Block Formatting Context? How does it work?👀
+What are CSS Combinators?👀
+What are Pseudo elements and Pseudo classes?👀👀👀👀👀👀
+Tell us about the property used for image scroll controlling?
+Name media types allowed by CSS.👀
+Can you name the four types of @media properties?
+What is the importance of CSS Sprites?👀👀👀👀
+What is the difference between inline, inline-block, and block?
+What is the Box model in CSS? Which CSS properties are a part of it?👀👀👀👀
+What are the limitations of CSS?
+What are the advantages of CSS?
+What is the float property of CSS?
+What are the different CSS link states?
+what is transform property and its type?
+What is specificity? How to calculate specificity?
+Different Box Sizing Property? 🤷‍♀️
+What is the grid system?👀
+What are mixins?
+Define gradients in CSS and types?
+How can we use pagination in CSS?
+Name different ways to position some aspects in CSS. 👀
+Difference between CSS grid vs flexbox? 👀👀👀👀👀👀👀
+What is CSS Image reflection?
+Why is the imported function an easy way to insert a file?
+What are the differences between adaptive design and responsive design?
+Does margin-top or margin-bottom have an effect on inline elements?
+What are the different types of Selectors in CSS?
+What is a CSS Preprocessor? What are Sass, Less, and Stylus? Why do people use them?
+What is VH/VW (viewport height/ viewport width) in CSS?
+Difference between reset vs normalize CSS?. How do they differ? -optional
+How do you specify units in the CSS?. What are the different ways to do it?
+What property is used for changing the font face?
+How are the CSS selectors matched against the elements by the browser?
+How is border-box different from content-box?
+Why should we use float property in CSS?
+What is a z-index, how does it function?
+What are the attribute selectors?
+What do the following CSS selectors mean?  div, p || div p || div ~ p || div + p ||div > p👀👀👀👀👀
+What are the properties of flexbox? 👀👀👀👀👀
+How will you align content inside the p tag at the exact center inside the div?
+Explain CSS position property?
+When does DOM reflow occur?👀👀👀👀👀
+How case-sensitive is CSS?
+What does the :root pseudo-class refer to?👀👀👀👀👀
+What does Accessibility (a11y) mean?
+How do I restore the default value of a property?
+What do CSS Custom properties variables mean?
+What is the difference between CSS variables and preprocessor(SASS, LESS, Stylus) variables?
+How to determine if the browser supports a certain feature? -optional
+How does this property work overflow: hidden?
+overflow properties?
+inherit
+What is the CSS3 counter?
+Can we overrule underlining hyperlinks? (ans -> text-decoration:none)
+What do you have to do to automatically number the heading values of sections and categories? -optional
+How is the nth-child() different from nth of type selectors?
+What do you understand by tweening in CSS?👀
+How will you fix browser-specific styling issues?
+Which CSS properties DOES NOT influence the box model?👀👀🤷‍♀️👀👀👀👀
+Why background and color are the separate properties if they should always be set together?
+Difference between reset vs normalize CSS? How do they differ?
+What is progressive rendering? How do you implement progressive rendering on the website? What are its advantages?
+Give an example of how you would use counter-increment and counter-reset in CSS to create automatic numbering within a webpage.
+What is file splitting? When is it used?
+What are functions/mixins? 
+Define different cascading methods that can be used inside the cascading order.
+How is the concept of inheritance applied in CSS?
+Compare Hexadecimal color codes with RGB values?
+How can the dimensions of an element be defined?👀
+Which of them is precedent: HTML procedures or CSS properties?
+What is the property used for image scroll controlling?
+What is the general CSS nomenclature?
+what is stylesheet?
+what do u mean by height:auto
+
+*/
