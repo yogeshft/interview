@@ -1,42 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.container{
-    display: flex;
-    
-}
 
-p{
-    width: 200px;
-}
-.img{
-    max-width: 100%;
-    height: auto;
-}
-
-/* adding media query */
-@media screen and (max-width: 768px){
- .el1{
-    font-size: 16px;
- }
-}
-
-.backgrnd-color{
-    width: 400px;
-    height: 400px;
-    background:linear-gradient(to right, #ff0000, #00ff00);
-    /* transform: rotate(60deg); */
-}
-
-
-/* Default styles for both elements */
-.hide-on-large, .show-on-large {
-    padding: 10px;
-    background-color: lightgray;
-    text-align: center;
-    margin: 10px;
-  }
   
   /* Media query to hide on larger screens */
   @media screen and (min-width: 768px) {
